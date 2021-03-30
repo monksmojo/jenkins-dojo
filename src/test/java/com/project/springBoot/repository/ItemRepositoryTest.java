@@ -1,8 +1,9 @@
-package com.in28minutes.junitMockito.section3.repository;
+package com.project.springBoot.repository;
 
 import com.project.SpringBoot.entity.Item;
 import com.project.SpringBoot.repository.ItemRepository;
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 

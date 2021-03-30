@@ -1,4 +1,4 @@
-package com.in28minutes.junitMockito.section3.controller;
+package com.project.springBoot.controller;
 
 import com.project.SpringBoot.controller.HelloWorldController;
 import org.junit.jupiter.api.Test;

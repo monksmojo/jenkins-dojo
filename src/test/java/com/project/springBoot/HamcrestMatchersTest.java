@@ -1,7 +1,7 @@
-package com.in28minutes.junitMockito.section3;
+package com.project.springBoot;
 
 import org.hamcrest.Matcher;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package com.in28minutes.junitMockito.section3;
+package com.project.springBoot;
 
 
 import org.json.JSONException;

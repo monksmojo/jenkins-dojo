@@ -1,9 +1,10 @@
-package com.in28minutes.junitMockito.section3.controller;
+package com.project.springBoot.controller;
 
 import com.project.SpringBoot.controller.ItemController;
 import com.project.SpringBoot.entity.Item;
 import com.project.SpringBoot.service.ItemService;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -12,6 +13,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockHttpServletResponse;
+import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
@@ -28,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 // item controllerTest using @MockBean
 
+//@RunWith(SpringRunner.class)
 @WebMvcTest(value = ItemController.class)
 public class ItemControllerTest {
 

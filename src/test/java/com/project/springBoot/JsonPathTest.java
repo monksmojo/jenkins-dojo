@@ -1,8 +1,8 @@
-package com.in28minutes.junitMockito.section3;
+package com.project.springBoot;
 
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.List;
 
@@ -22,8 +22,6 @@ public class JsonPathTest {
         int length=context.read("$.length()");
         assertThat(length).isEqualTo(4);
 
-        List<Long> longIds=context.reads("$..itemId");
-        assertThat(longIds).containsExactly(ll,2l,3l,4l);
 
     }
 }

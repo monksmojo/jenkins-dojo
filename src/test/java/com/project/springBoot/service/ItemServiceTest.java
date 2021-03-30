@@ -1,4 +1,4 @@
-package com.in28minutes.junitMockito.section3.service;
+package com.project.springBoot.service;
 
 import com.project.SpringBoot.entity.Item;
 import com.project.SpringBoot.repository.ItemRepository;

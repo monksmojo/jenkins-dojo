@@ -11,7 +11,7 @@ import org.junit.platform.runner.JUnitPlatform;
 @SelectClasses({AssertJTest.class,HamcrestMatchersTest.class,JsonPathTest.class})
 public class TestSuit {
     @Test
-    void test1(){
+    public void test1(){
         Assert.assertEquals(1,1);
     }
 }
